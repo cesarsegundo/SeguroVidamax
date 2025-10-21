@@ -1,0 +1,137 @@
+$primary-color: #42b883;
+$green-primary : #006341;
+$green-secondary: #CFE7C5;
+$gray-color: #393939;
+$pink-color: #EF3C9A;
+
+* {
+  box-sizing: border-box;
+}
+
+.container {
+  background-color: $primary-color;
+  padding: 2rem;
+  color: white;
+  border-radius: 10px;
+}
+
+.navbar-image {
+  background-image: url("./assets/familia-deseguros.webp");
+  margin: 0;
+  padding: 0;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100vh;
+}
+
+.navbar {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  right: 20px;
+  padding: 20px;
+  background-color: rgba(255, 255, 255, 0.5);
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 30px;
+  color: black;
+}
+
+.navbar a {
+  text-decoration: none;
+  margin: 0 15px;
+}
+
+.navbar a:hover {
+  text-decoration: underline;
+}
+
+.underline {
+  text-decoration: underline;
+}
+
+.circle-icon {
+  width: 30px;
+  height: 30px;
+  background-color: $pink-color;
+  border-radius: 50%;
+}
+
+.banner {
+  display: flex;
+  align-items: center;
+}
+.container-vidamax {
+  display: flex;
+  justify-content: space-evenly;
+  margin: 0px 30px;
+}
+
+.questions {
+  max-width: 500px;
+}
+.btn {
+  padding: 10px 20px;
+  background-color: transparent; /* Azul */
+  color: $primary-color;
+  border: 1px solid $green-secondary;
+  border-radius: 10px ;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.3s ease;
+}
+
+.section {
+  padding: 20px;
+  background-color: $green-secondary;
+  color: $green-primary;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 30px;
+  list-style-type: none;
+}
+
+.section li {
+  padding: 10px 7px;
+}
+
+.section li:hover {
+  background-color: white; /* Azul */
+  border-radius: 10px ;
+  transition: background-color 0.3s ease;
+  cursor: pointer;
+}
+
+.fallecimiento{
+  max-width: 500px;
+}
+
+.btn-sin {
+  color: $primary-color;
+  border: 1px solid $green-secondary;
+  border-radius: 10px ;
+  cursor: pointer;
+  font-size: 16px;
+  background-color: white;
+  padding: 8px 10px;
+}
+
+.btn-sin-active {
+  background-color: $green-secondary;
+}
+
+.btns-sin {
+  display: flex;
+  gap: 5px
+}
+
+.navbar-active {
+  background-color: $green-primary;
+  border-radius: 10px;
+  padding: 10px 6px;
+  color: white;
+}
